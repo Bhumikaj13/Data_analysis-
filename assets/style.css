@@ -1,0 +1,178 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,
+body,
+[class*="css"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===========================
+   MAIN PAGE
+=========================== */
+
+.block-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+/* ===========================
+   KPI CARDS
+=========================== */
+
+div[data-testid="stMetric"]{
+
+    background: linear-gradient(
+        135deg,
+        #111827,
+        #1F2937
+    );
+
+    border-radius:18px;
+
+    padding:18px;
+
+    border:1px solid #2D3748;
+
+    box-shadow:
+    0px 10px 25px rgba(0,0,0,.25);
+
+    transition:.3s;
+}
+
+div[data-testid="stMetric"]:hover{
+
+    transform:translateY(-5px);
+
+    border:1px solid #4F46E5;
+
+    box-shadow:
+    0px 15px 35px rgba(79,70,229,.30);
+}
+
+/* ===========================
+   METRIC TEXT
+=========================== */
+
+div[data-testid="stMetricLabel"]{
+
+    font-size:18px;
+
+    font-weight:600;
+}
+
+div[data-testid="stMetricValue"]{
+
+    font-size:34px;
+
+    color:#4F46E5;
+
+    font-weight:700;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+section[data-testid="stSidebar"]{
+
+    background:#111827;
+}
+
+section[data-testid="stSidebar"] *{
+
+    color:white;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.stButton>button{
+
+    width:100%;
+
+    border-radius:12px;
+
+    border:none;
+
+    background:#4F46E5;
+
+    color:white;
+
+    padding:.75rem;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.stButton>button:hover{
+
+    background:#312E81;
+}
+
+/* ===========================
+   DOWNLOAD BUTTON
+=========================== */
+
+.stDownloadButton>button{
+
+    width:100%;
+
+    background:#059669;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:.75rem;
+}
+
+/* ===========================
+   DATAFRAME
+=========================== */
+
+div[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    border:1px solid #E5E7EB;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1{
+
+    color:#4F46E5;
+
+    font-weight:700;
+}
+
+h2{
+
+    color:#111827;
+}
+
+h3{
+
+    color:#111827;
+}
+
+/* ===========================
+   SUCCESS BOX
+=========================== */
+
+div[data-testid="stAlert"]{
+
+    border-radius:15px;
+}
